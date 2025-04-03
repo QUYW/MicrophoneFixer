@@ -1,7 +1,7 @@
 # Windows Microphone Troubleshooter v2.0
 
 ![Version](https://img.shields.io/badge/version-2.0-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%20Windows%2011-lightgrey.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%7CWindows%2011-lightgrey.svg)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![GitHub issues](https://img.shields.io/github/issues/imaginesamurai/MicrophoneFixer.svg)](https://github.com/imaginesamurai/MicrophoneFixer/issues)
