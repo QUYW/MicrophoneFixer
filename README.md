@@ -1,5 +1,15 @@
 # Windows Microphone Troubleshooter v2.0
 
+![Version](https://img.shields.io/badge/version-2.0-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%20Windows%2011-lightgrey.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![GitHub issues](https://img.shields.io/github/issues/imaginesamurai/MicrophoneFixer.svg)](https://github.com/imaginesamurai/MicrophoneFixer/issues)
+![Stability](https://img.shields.io/badge/stability-stable-green.svg)
+![Safety](https://img.shields.io/badge/safety-verified-brightgreen.svg)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support%20Me-ff5f5f.svg)](https://ko-fi.com/imaginesamurai)
+
+
 A comprehensive Windows batch script to diagnose and fix common microphone issues, particularly when Windows recognizes the microphone but other applications don't.
 
 <p align="center">
