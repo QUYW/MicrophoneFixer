@@ -3,7 +3,7 @@
 A comprehensive Windows batch script to diagnose and fix common microphone issues, particularly when Windows recognizes the microphone but other applications don't.
 
 <p align="center">
-  <img src="banner.png" alt="MICTFIX Banner">
+  <img src="banner.png" alt="MICTFIX Banner" style="width:250px;">
 </p>
 
 ## Features
