@@ -6,6 +6,7 @@ setlocal enabledelayedexpansion
 :: MicrophoneFixer v2.0
 :: Created by imaginesamurai
 :: https://github.com/imaginesamurai
+:: please dont remove my Watermark
 
 :: Set up log file
 set "logfile=%temp%\MicrophoneFixer_log.txt"
