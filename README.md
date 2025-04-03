@@ -45,24 +45,6 @@ A comprehensive Windows batch script to diagnose and fix common microphone issue
 
 Run the script and select from the available options in the menu. For most cases, the "Run comprehensive fix" option (9) is recommended as it applies all fixes in sequence.
 
-### Example Code
-
-Here's a snippet of the batch script:
-
-```batch
-@echo off
-color 0A
-title Windows Microphone Troubleshooter v2.0
-setlocal enabledelayedexpansion
-
-:: MicrophoneFixer v2.0
-:: Created by imaginesamurai
-:: https://github.com/imaginesamurai
-
-:: Set up log file
-set "logfile=%temp%\MicrophoneFixer_log.txt"
-```
-
 ## What This Tool Fixes
 
 - Windows privacy settings blocking microphone access
