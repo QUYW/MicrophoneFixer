@@ -9,7 +9,7 @@
 ![Safety](https://img.shields.io/badge/safety-verified-brightgreen.svg)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support%20Me-ff5f5f.svg)](https://ko-fi.com/imaginesamurai)
 
-
+ 
 A comprehensive Windows batch script to diagnose and fix common microphone issues, particularly when Windows recognizes the microphone but other applications don't.
 
 <p align="center">
